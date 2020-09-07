@@ -12,7 +12,7 @@ export default class Contact extends Component {
       <div>
         <Container>
           <Row>
-            <Col xs={12} md={6}>
+            <Col md={6}>
               <Rotate bottom right cascade duration={2000}>
                 <h1 style={{ fontSize: "54px", fontWeight: "700" }}>
                   Contact Us
@@ -65,7 +65,7 @@ export default class Contact extends Component {
                 </LightSpeed>
               </ul>
             </Col>
-            <Col xs={12} md={6} style={{ textAlign: "center" }}>
+            <Col md={6} style={{ textAlign: "center" }}>
               <Fade top duration={2000}>
                 <h1 style={{ fontWeight: "200" }}>Hi There!</h1>
               </Fade>

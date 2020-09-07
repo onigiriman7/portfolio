@@ -1,24 +1,29 @@
-.Landing,
 .portfolio,
+.Landing,
 .imgGallery,
 .contact {
   position: relative;
+  z-index: 2;
 }
 
 .Landing {
   height: 100vh;
-  background-color: lightblue;
+
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
+  background-attachment: fixed;
+  width: 100vw;
 }
 
 .portfolio {
   height: auto;
-  background-color: blanchedalmond;
 }
 
 .imgGallery {
   height: auto;
-  background-color: rgb(18, 18, 19);
+
   background-attachment: fixed;
 }
 
@@ -33,10 +38,9 @@
 }
 
 .contact {
-  height: 43vh;
+  height: auto;
   padding: 40px;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  color: rgba(255, 255, 255, 0.8);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
@@ -59,4 +63,35 @@
   cursor: pointer;
   color: rgb(122, 122, 122);
   transition: 1s;
+}
+
+.thirdText {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px 15px;
+  border-left: 8px solid rgb(44, 44, 44);
+  background-color: rgb(243, 243, 243);
+}
+
+.thirdImg {
+  height: 250x;
+  width: 344px;
+
+  border: none;
+}
+
+.fourthText {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px 15px;
+  border-right: 8px solid rgb(44, 44, 44);
+  width: 600px;
+  background-color: rgb(243, 243, 243);
+}
+.fourthImg {
+  height: 250px;
+  width: 280px;
+  border-radius: 50%;
+  border: 10px solid white;
+  border-left: 10px solid black;
 }
